@@ -3,7 +3,11 @@
   "name": "Ecommerce Admin Panel",
   "icons": [
     {
+<<<<<<< HEAD
       "src": "./logo.png",
+=======
+      "src": "favicon.ico",
+>>>>>>> 66ab953c41f4acab04279f47b36f42e420f40982
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

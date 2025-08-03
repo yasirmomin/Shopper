@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .admin{
     display: flex;
 }
@@ -5,4 +6,13 @@
     .admin{
         flex-direction: column;
     }
+=======
+.admin{
+    display: flex;
+}
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+>>>>>>> 66ab953c41f4acab04279f47b36f42e420f40982
 }

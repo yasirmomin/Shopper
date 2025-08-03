@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import Sidebar from "../Components/Sidebar/Sidebar";
 import AddProduct from "../Components/AddProduct/AddProduct";
@@ -33,3 +34,26 @@ const Admin = () => {
 };
 
 export default Admin;
+=======
+import React from "react";
+import "./CSS/Admin.css";
+import Sidebar from "../Components/Sidebar/Sidebar";
+import AddProduct from "../Components/AddProduct/AddProduct";
+import { Route, Routes } from "react-router-dom";
+import ListProduct from "../Components/ListProduct/ListProduct";
+
+const Admin = () => {
+
+  return (
+    <div className="admin">
+      <Sidebar />
+      <Routes>
+        <Route path="/addproduct" element={<AddProduct />} />
+        <Route path="/listproduct" element={<ListProduct />} />
+      </Routes>
+    </div>
+  );
+};
+
+export default Admin;
+>>>>>>> 66ab953c41f4acab04279f47b36f42e420f40982

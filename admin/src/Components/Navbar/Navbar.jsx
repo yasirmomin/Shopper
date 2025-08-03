@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./Navbar.css";
 import navlogo from "../Assets/nav-logo.svg";
@@ -38,3 +39,20 @@ const Navbar = () => {
 };
 
 export default Navbar;
+=======
+import React from 'react'
+import './Navbar.css'
+import navlogo from '../Assets/nav-logo.svg'
+import navprofileIcon from '../Assets/nav-profile.svg'
+
+const Navbar = () => {
+  return (
+    <div className='navbar'>
+      <img src={navlogo} className='nav-logo' alt="" />
+      <img src={navprofileIcon} className='nav-profile' alt="" />
+    </div>
+  )
+}
+
+export default Navbar
+>>>>>>> 66ab953c41f4acab04279f47b36f42e420f40982

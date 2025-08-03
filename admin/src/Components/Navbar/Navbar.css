@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar{
     display: flex;
     align-items: center;
@@ -38,3 +39,31 @@
 .auth-btn:hover {
   background-color: #e03636;
 }
+=======
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width: 200px;
+}
+.nav-profile{
+    width: 75px;
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    } 
+    .nav-logo{
+        width: 150px;
+    }
+    .nav-profile{
+        width: 60px;
+    }
+}
+>>>>>>> 66ab953c41f4acab04279f47b36f42e420f40982
